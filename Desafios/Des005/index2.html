@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ricardo Amisterdan - Desenvolvedor web focado em HTML, CSS e JavaScript. Veja minhas redes sociais e entre em contato!">
+    <title>Redes Sociais - Ricardo Amisterdan</title>
+    <link rel="shortcut icon" href="You-tube.icon.ico" type="image/x-icon">
+    <style>
+        /* Estilo global */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0078d7;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        h2 {
+            color: #0078d7;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        .social-icon {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+
+        a {
+            color: #0078d7;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056a3;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minhas Redes Sociais</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Quem sou eu?</h2>
+            <img id="profile-pic" src="Fotoperfil150.png" alt="Foto de perfil de Ricardo Amisterdan" width="150" height="150">
+            <p>Sou <strong>Ricardo Amisterdan</strong>, um desenvolvedor web em constante aprendizado, apaixonado por transformar ideias em interfaces digitais interativas. Com foco em HTML, CSS e JavaScript, busco aprimorar minhas habilidades para criar experiências online intuitivas e visualmente atraentes.</p>
+        </section>
+
+        <section>
+            <h2>Como falar comigo?</h2>
+            <ul>
+                <li>
+                    <img src="Yt15.png" alt="Ícone do YouTube" class="social-icon">
+                    <a href="https://www.youtube.com/@ricardoamisterdanservo" target="_blank" rel="noopener noreferrer">
+                        /Ricardo Amisterdan
+                    </a> - Lá no meu canal no YouTube
+                </li>
+                <li>
+                    <img src="Inst15.png" alt="Ícone do Instagram" class="social-icon">
+                    <a href="https://www.instagram.com/ricardo_amisterdan?igsh=ZnVvbjdvYWdndHNz" target="_blank" rel="noopener noreferrer">
+                        /Ricardo_amisterdan
+                    </a> - Me segue lá no Instagram
+                </li>
+                <li>
+                    <img src="Linkedin15.png" alt="Ícone do LinkedIn" class="social-icon">
+                    <a href="https://www.linkedin.com/feed/?trk=404_page" target="_blank" rel="noopener noreferrer">
+                        /Ricardo Amisterdan
+                    </a> - Me adiciona lá no LinkedIn
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Ricardo Amisterdan © 2025</p>
+    </footer>
+
+    <script>
+        // Exibe uma mensagem de boas-vindas ao carregar a página
+        window.onload = () => {
+            alert("Bem-vindo ao meu site de redes sociais!");
+        };
+
+        // Adiciona um efeito de rotação ao passar o mouse na foto de perfil
+        const profilePic = document.getElementById("profile-pic");
+
+        profilePic.addEventListener("mouseover", () => {
+            profilePic.style.transform = "rotate(360deg)";
+            profilePic.style.transition = "transform 1s ease";
+        });
+
+        profilePic.addEventListener("mouseout", () => {
+            profilePic.style.transform = "rotate(0deg)";
+        });
+    </script>
+</body>
+</html>

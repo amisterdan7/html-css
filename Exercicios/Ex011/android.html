@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Teste para aparelhos menores, celulares e tablet</p>
+
+    <picture>
+        <source media="(max-width: 200px)" srcset="" type="image/png">
+        <source media="(max-width: 400px)" srcset="Imagens/Celp.png" type="image/png">
+        <source media="(max-width: 700px)" srcset="Imagens/celm.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/celg.png" type="image/png">
+        <img src="Imagens/Foto2.png" alt="Imagem Flexível" style="width: 100%; max-width: 1050px;">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/happymistake-RKVC.mp3"></audio>
+</body>
+</html>

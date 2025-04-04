@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        main{
+            font-family: 'Courier New', Courier, monospace;
+
+            font-size: 16px;;
+            
+            /*
+              Weight = peso
+              Widht = largura
+              Height = altura
+              
+              Pesos literais: variações de pesos.  
+              Lighter
+              normal 
+              bold
+              bolder
+            */
+        }
+        /*
+        Medidas Absolutas 
+        cm, mm, in, px, pt, pc
+        
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        
+        16px geralmente = 1em;
+        
+        recomendação para uso de fontes é o px e em
+        */
+        h1 {
+            /*
+            
+        font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            /*
+            Shorthand font
+
+            - font-style -> font-weiht -> font-size -> font-family
+            */
+            font: italic bolder 3em sans-serif 
+        }
+        h2{
+
+            font: bold 2em monospace 
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1><ins>Trabalhando com fontes</ins></h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sunt rerum praesentium dolores accusamus accusantium ratione soluta, atque nobis, eligendi in doloribus, dicta ullam tempora ut ex numquam. Laboriosam, vel!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ullam expedita quis ad eius alias ea, perspiciatis ab culpa ipsa. Enim aspernatur sint ipsa numquam officiis tempora eveniet quae maxime?</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut ad neque autem provident voluptatibus porro est, ullam accusantium unde omnis. Fugit nam assumenda excepturi provident maiores rem animi repudiandae voluptates.</p>
+    </main>
+    
+</body>
+</html>

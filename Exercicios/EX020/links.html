@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(63, 222, 193);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color:  rgb(235, 46, 46);
+        }
+        .especial::before{
+            content: '✔ ';
+        }
+        .especial::after{
+            content: ' ✔';
+
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/amisterdan7?tab=repositories" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/@ricardoamisterdanservo">Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/ricardo_amisterdan?igsh=ZnVvbjdvYWdndHNz" class="especial" target="_blank">Instagram</a></li>
+        <li><a href="https://institutovidaparatodos.org.br/" target="_blank">IVPT</a></li> 
+    </ul>
+    
+</body>
+</html>
